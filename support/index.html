@@ -69,6 +69,7 @@
       <li><a href="#icloud">iCloud Sync</a></li>
       <li><a href="#widgets">Home Screen Widgets</a></li>
       <li><a href="#export">Exporting Your Bills</a></li>
+      <li><a href="#autopay">Auto-Pay</a></li>
       <li><a href="#privacy">Privacy and Your Data</a></li>
       <li><a href="#help">Still Need Help?</a></li>
     </ul>
@@ -195,9 +196,9 @@
   <h2 id="premium">Free Version and Premium</h2>
 
   <h3>What’s included for free?</h3>
-  <p>Everything except the Premium features: the Dashboard, adding and editing bills, marking paid, skipping, deleting, categories, reminders, search and settings, for up to 5 active bills.</p>
+  <p>Everything except the Premium features: the Dashboard, adding and editing bills, marking paid, skipping, deleting, categories, reminders, search, settings and the Home Screen widgets, for up to five active bill series.</p>
 
-  <h3>How are bills counted toward the free limit?</h3>
+  <h3>How are bill series counted toward the free limit?</h3>
   <p>A repeating bill counts once, however many times it repeats. Only active bills count. To make room for a new bill, delete one you no longer need.</p>
 
   <h3>What does Premium include?</h3>
@@ -206,13 +207,16 @@
     <li><strong>Unlimited bills</strong></li>
     <li><strong>Archiving</strong> bills you’re finished with, keeping their payment history</li>
     <li><strong>iCloud Sync</strong>, to keep your bills the same on your iPhone and iPad</li>
-    <li><strong>Home Screen widgets</strong> that show what’s due</li>
     <li><strong>Export</strong> of your bills and payment history to a spreadsheet file</li>
+    <li><strong>Auto-Pay</strong>, which tracks bills that you’ve set up for automatic payment</li>
   </ul>
   <p>To buy it, open Menu (☰) → Settings → Premium.</p>
 
   <h3>I bought Premium, but the app doesn’t show it. What should I do?</h3>
   <p>Open Menu (☰) → Settings → Premium and tap <strong>Restore Purchases</strong>. Make sure you’re signed in to the App Store with the same Apple Account you used to buy it. This is also how you turn on Premium on another device.</p>
+
+  <h3>The Premium screen says that in-app purchases aren’t allowed.</h3>
+  <p>Purchases are restricted on the device. To allow them, open the Settings app and go to Screen Time → Content &amp; Privacy Restrictions → iTunes &amp; App Store Purchases. If a parent, a school or an employer manages the device, ask them to allow in-app purchases.</p>
 
   <h3>Can I get a refund?</h3>
   <p>Purchases are handled by Apple. Request a refund at <a href="https://reportaproblem.apple.com/">reportaproblem.apple.com</a>.</p>
@@ -236,7 +240,7 @@
     <li>Open Onyx on the other device; it picks up changes when it opens.</li>
   </ul>
 
-  <h2 id="widgets">Home Screen Widgets <span class="premium">(Premium)</span></h2>
+  <h2 id="widgets">Home Screen Widgets</h2>
 
   <h3>How do I add a widget?</h3>
   <p>Touch and hold an empty spot on your Home Screen, tap <strong>Edit</strong> → <strong>Add Widget</strong>, and search for Onyx. There are two:</p>
@@ -246,14 +250,14 @@
   </ul>
   <p>Tap a bill in a widget to open it in Onyx.</p>
 
-  <h3>My widget says “Onyx Premium”.</h3>
-  <p>Widgets are part of Premium. Tap the widget to buy or restore it; the widget fills in once Premium is on.</p>
+  <h3>My widget says “Open Onyx to see upcoming bills.”</h3>
+  <p>Open Onyx once. The widget fills in after Onyx has run on the device, such as after you install it or restore the device from a backup.</p>
 
   <h3>My widget isn’t up to date.</h3>
   <p>Opening Onyx updates the widgets right away. Otherwise they refresh on their own about once an hour.</p>
 
   <h3>Can I mark a bill paid from a widget?</h3>
-  <p>No. Widgets show what’s due; tap a bill to open it in Onyx and pay it there.</p>
+  <p>No. Widgets show upcoming bills; tap a bill to open it in Onyx and pay it there.</p>
 
   <h2 id="export">Exporting Your Bills <span class="premium">(Premium)</span></h2>
 
@@ -261,10 +265,30 @@
   <p>Open Menu (☰) → Settings → <strong>Export Bills</strong>. Onyx makes a CSV file you can open in Numbers, Excel or Google Sheets, and lets you save it to Files or send it with AirDrop, Mail or Messages.</p>
 
   <h3>What’s in the file?</h3>
-  <p>Every bill you’ve saved, one row each: paid, unpaid, skipped and archived, from every year, with its category, due date, amount, status, payment date and amount paid, how it repeats, payee, payment website and notes. Future bills in a series that are still Scheduled aren’t included.</p>
+  <p>Every bill you’ve saved, one row each: paid, unpaid, skipped and archived, from every year, with its category, due date, amount, status, payment date and amount paid, how it repeats, payee, payment website and notes, and whether it’s paid by Auto-Pay and with which payment method. Future bills in a series that are still Scheduled aren’t included.</p>
 
   <h3>Can I import a file back into Onyx?</h3>
   <p>No. To keep a copy of your bills that you can bring back, use iCloud Sync.</p>
+
+  <h2 id="autopay">Auto-Pay <span class="premium">(Premium)</span></h2>
+
+  <h3>Does Onyx pay my bills?</h3>
+  <p>No. Onyx doesn’t make payments. Use Auto-Pay to track bills that you’ve set up for automatic payment with your bank or payee. Onyx records each one as paid the day after it’s due.</p>
+
+  <h3>How do I set up Auto-Pay?</h3>
+  <p>When you add a bill, or in Edit Series, turn on <strong>Auto-Pay</strong>. You can also enter a <strong>Payment Method</strong>, such as “Joint Checking,” or pick one you’ve used before from the menu beside it. The payment method is optional. Use a name you’ll recognize, never a card number: it appears in notifications, including on the Lock Screen.</p>
+
+  <h3>What happens when an Auto-Pay bill is due?</h3>
+  <p>Onyx can’t see your bank, so it follows the bill’s schedule. Until the due date, the bill shows <strong>Auto-Pay</strong> instead of its usual due line, and it never shows as overdue. The day after the due date, Onyx records it as paid for its usual amount, as <strong>Paid by Auto-Pay</strong>, and a notification confirms it that morning at your reminder time (Menu (☰) → Notifications).</p>
+
+  <h3>What if the payment didn’t go through?</h3>
+  <p>Tap the bill, or the payment under <strong>Past</strong> in Bill Details, and tap <strong>Mark as Unpaid</strong>. It takes one tap. The bill then shows <strong>Automatic payment failed</strong> and is overdue, so you can pay it yourself. Auto-Pay won’t record it again, and it continues to record later bills in the series.</p>
+
+  <h3>Can I change what an automatic payment recorded?</h3>
+  <p>Yes. Open the payment under <strong>Past</strong> in Bill Details and tap <strong>Edit</strong> to change the amount, the date or the payment method. Only that payment changes; the bill’s usual amount and payment method stay the same.</p>
+
+  <h3>I turned on Auto-Pay, but an overdue bill wasn’t marked paid.</h3>
+  <p>Auto-Pay records bills due from the day you turn it on. A bill that was already overdue isn’t recorded: mark it paid yourself, and the ones after it are recorded automatically.</p>
 
   <h2 id="privacy">Privacy and Your Data</h2>
 
